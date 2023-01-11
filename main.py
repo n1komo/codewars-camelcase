@@ -12,7 +12,7 @@ def to_camel_case(text):
     return rdy_string
 
 
-def detect_separator(text): # this method detects separator in our input string
+def detect_separator(text):  # this method detects separator in our input string
     text.find('-')
     if text.find('-') > 0:
         return text[text.find('-')]
