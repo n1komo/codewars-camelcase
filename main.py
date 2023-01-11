@@ -5,7 +5,7 @@ def to_camel_case(text):
         if i == new_list[0]:  # if it's a first word then adds it to our temp list without formatting upcase
             temp_list += i
             continue
-        temp_list += i.title()  # adds our current word with first letter upcased.
+        temp_list += i.title()  # adds our current word with first letter up-cased.
 
     rdy_string = ''.join(temp_list)  # converting our temp list into a string format
     print(rdy_string)
